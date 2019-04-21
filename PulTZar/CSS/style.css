@@ -1,25 +1,28 @@
-	body{
-		margin: 0;
-	}
-	* {
+	
+	*{
 		box-sizing: border-box;
 	}
+	body{
+		margin: 0;
+		padding-bottom: 1000px;
 
-	nav {
-		top: 0;
-		float: left;
-		height: 565px;
-		width: 100%;
-		background: grey;
-		color: white;
+	}
+
+	.header {
+		background-color: #2F4F4F;
+		padding-top: 18px;
+		padding-bottom: 12px;
+	}
+	
+	.header h1 {
 		text-align: center;
-	}
+		color: white;
 
-	nav ul {
-		list-style-type: none;
-		padding: 0;
-	}
+	}		
 
+	* {
+		box-sizing: border-box;
+	} 
 
 	section:after {
 		content: "";
@@ -28,63 +31,51 @@
 
 	}
 
-	.uli {
-		position: sticky; /* not working at all */
-		background-color: #333333;
-		margin: 0;
-		padding: 0;
+	ul {
+		z-index: 1;
+		position: sticky;
+		top: 0;
+		list-style-type: none;
+		background-color: #222222;
+		margin: 0px;
+		padding: 0px;
 		overflow: hidden;
-		border-bottom: 4px solid #6B8E23
+		border-bottom: 4px solid #B8860B;
+
 	}
-
-
 
 	li {
 		float: left;
 			}
 
-	li a {
-		display: block;
+	.uli .ptz {
+		float: right;
+	}
+
+
+	.uli .right:hover {
+		text-decoration: underline;
+	}
+
+	.uli li a {
+		display: inline-block;
 		color:white;
-		padding: 14px;
+		padding: 16px;
 		text-align: center;
 		font-family: verdana;
 		text-decoration: none;
 	}
 
-	li a:hover {
-		background-color: #6B8E23;
+	.uli .left:hover{
+		background-color: #B8860B;
+		color: black;
 	}
 
-	.left {
-		background-color: #2196F3; /* blue */
-		float: left;
-		padding: 20px;
-		width: 20%;
+	.tiger {
+		height: 300px; 
+		width: 300px;
 	}
 
-	.main {
-		background-color: #f1f1f1;
-		padding: 20px;
-		float: left;
-		width: 60%;
-		color:black;
-	}
-
-	.right {
-		background-color: #4CAF50;
-		padding: 20px;
-		float: left;
-		width: 20%;
-	}
-
-	div.sticky {
-		position: -webkit-sticky;
-		position: sticky;
-		top: 0;
-	}
-
-	
 
 	@media screen and (max-width:800px) {
   .left, .main, .right {
