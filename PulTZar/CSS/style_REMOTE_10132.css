@@ -1,0 +1,84 @@
+	
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		margin: 0;
+		padding-bottom: 1000px;
+
+	}
+
+	.header {
+		background-color: #2F4F4F;
+		padding-top: 18px;
+		padding-bottom: 12px;
+	}
+	
+	.header h1 {
+		text-align: center;
+		color: white;
+
+	}		
+
+	* {
+		box-sizing: border-box;
+	} 
+
+	section:after {
+		content: "";
+		display: table;
+		margin-bottom: 20px;
+
+	}
+
+	ul {
+		z-index: 1;
+		position: sticky;
+		top: 0;
+		list-style-type: none;
+		background-color: #222222;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		border-bottom: 4px solid #B8860B;
+
+	}
+
+	li {
+		float: left;
+			}
+
+	.uli .ptz {
+		float: right;
+	}
+
+
+	.uli .right:hover {
+		text-decoration: underline;
+	}
+
+	.uli li a {
+		display: inline-block;
+		color:white;
+		padding: 16px;
+		text-align: center;
+		font-family: verdana;
+		text-decoration: none;
+	}
+
+	.uli .left:hover{
+		background-color: #B8860B;
+		color: black;
+	}
+
+	.tiger {
+		height: 300px; 
+		width: 300px;
+	}
+
+
+	@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
