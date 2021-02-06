@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "pultzar",
     "public": "public",
     "ignore": [
       "firebase.json",
