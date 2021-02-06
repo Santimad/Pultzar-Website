@@ -3,7 +3,6 @@
     "site": "pultzar",
     "public": "PulTZar",
     "ignore": [
-      "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
