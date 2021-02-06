@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "pultzar",
-    "public": "public",
+    "public": "PulTZar",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,7 +10,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "PulTZar/index.html"
+        "destination": "index.html"
       }
     ]
   }
