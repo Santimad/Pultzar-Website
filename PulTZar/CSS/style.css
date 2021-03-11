@@ -5,6 +5,8 @@
 	body{
 		margin: 0;
 	}
+	p { font-family: '2-Questa_Regular'; }
+	a {font-family: '2-Questa_Regular';}
 
 	.header {
 		background-color: #222222;
