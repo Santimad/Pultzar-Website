@@ -44,11 +44,6 @@
 
 	li { float: left; }
 
-	.barraDeNavegacion .ptz {
-		float: right;
-	}
-
-
 	.barraDeNavegacion .right:hover {
 		text-decoration: underline;
 	}
