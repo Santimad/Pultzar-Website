@@ -1,4 +1,6 @@
-	
+	:root{
+		--goblin: #63b521;
+	}
 	*{
 		box-sizing: border-box;
 	}
@@ -39,7 +41,7 @@
 		margin: 0px;
 		padding: 0px;
 		overflow: hidden;
-		border-bottom: 4px solid gold;
+		border-bottom: 4px solid #63b521;
 	}
 
 	li { float: left; }
@@ -57,9 +59,9 @@
 		text-decoration: none;
 	}
 
-	.barraDeNavegacion .left:hover{
-		background-color: gold;
-		color: black;
+	.barraDeNavegacion li a:hover{
+		background-color: var(--goblin);
+		color: white;
 	}
 
 	.tiger {
