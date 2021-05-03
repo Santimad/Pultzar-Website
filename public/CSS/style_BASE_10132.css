@@ -1,0 +1,93 @@
+	body{
+		margin: 0;
+	}
+	* {
+		box-sizing: border-box;
+	}
+
+	nav {
+		top: 0;
+		float: left;
+		height: 565px;
+		width: 100%;
+		background: grey;
+		color: white;
+		text-align: center;
+	}
+
+	nav ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+
+	section:after {
+		content: "";
+		display: table;
+		margin-bottom: 20px;
+
+	}
+
+	.uli {
+		position: sticky; /* not working at all */
+		background-color: #333333;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		border-bottom: 4px solid #6B8E23
+	}
+
+
+
+	li {
+		float: left;
+			}
+
+	li a {
+		display: block;
+		color:white;
+		padding: 14px;
+		text-align: center;
+		font-family: verdana;
+		text-decoration: none;
+	}
+
+	li a:hover {
+		background-color: #6B8E23;
+	}
+
+	.left {
+		background-color: #2196F3; /* blue */
+		float: left;
+		padding: 20px;
+		width: 20%;
+	}
+
+	.main {
+		background-color: #f1f1f1;
+		padding: 20px;
+		float: left;
+		width: 60%;
+		color:black;
+	}
+
+	.right {
+		background-color: #4CAF50;
+		padding: 20px;
+		float: left;
+		width: 20%;
+	}
+
+	div.sticky {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+
+	
+
+	@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
