@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+address {
+    font-size: 1.1em;
+}
+
+.padding{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.margin {
+    margin: 1em 1em 1em 1em;
+}
+.container { display:flex; justify-content: flex-start; flex-direction: row;}
+.container .picture{
+    margin-left:auto;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+  }
+div.intereses { width: 40vw;}
+div.intereses > ul { list-style-type: none; justify-content:space-around;}
+
+
+
+
+
