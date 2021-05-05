@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-header { height: auto;}
+
 .padding{
     padding: 1em 1em 2em 1em;
 }
@@ -13,12 +13,17 @@ header { height: auto;}
 .container .picture{
     margin-left:auto;
 }
-table{ width: 50vw;}
+table{ width: 80vw;}
 td, th {
     border: 1px solid #999;
     padding: 0.5rem;
   }
-div.intereses { width: 50vw;}
+div.intereses { width: 80vw;}
+
+@media (max-width: 600px) {
+    table{ width: 50vw;}
+    div.intereses { width: 50vw;}
+  }
 div.intereses > ul { list-style-type: none; justify-content:space-between;} 
 div.intereses > ul > li {z-index: 2;}
 div.intereses > ul > li > span{margin-left: 2em;}

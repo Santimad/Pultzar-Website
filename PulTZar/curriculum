@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <title> Santiago Salvador Joaqu&iacute;n Madrid </title>
 
-        <link rel="stylesheet" media="(min-width: 700px)" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+
     </head>
     <body>
         <header>
