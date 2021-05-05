@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="container">
-            <h1 class="padding titulo">Santiago S. J. Madrid</h1>
+            <h1 class="titulo">Santiago S. J. Madrid</h1>
             <img class="picture" src="img/perfil.jpg" > 
     </div>
     <hr>
@@ -42,11 +42,11 @@
                     </tr>
                     <tr>
                         <td>Cisco CCNA</td>
-                        <td>No completado</td>
+                        <td>En curso</td>
                         <td>No obtenido</td>
                     </tr>
                     <tr>
-                        <td> HTML5 fundamentals</td>
+                        <td> HTML5 Fundamentals</td>
                         <td> Completado</td>
                         <td> No obtenido</td>
                     </tr>
@@ -56,9 +56,16 @@
                         <td> No obtenido</td>
                     </tr>
                     <tr>
-                        <td> Javascript introduction</td>
+                        <td> Javascript Introduction</td>
                         <td> Completado</td>
-                        <td> Obtenido</td>
+                        <td> <a href="https://courses.edx.org/certificates/cb7e2fbd2b6d4421ae2b72be5ffcf2ef" target="_blank">
+                        Ver certificado</a></td>
+                    </tr>
+                    <tr>
+                        <td> NDG Linux Unhatched </td>
+                        <td> Completado </td>
+                        <td><a href="https://mis-certificados.s3-sa-east-1.amazonaws.com/SantiagoMadrid-Linux+Unhatched+-certificate.pdf" target="_blank">
+                        Ver certificado</a></td>
                     </tr>
                 </table>
             </section>
@@ -66,11 +73,11 @@
             
                 <h2> Intereses: </h2>
                 <div class="intereses">
-                <ul class="container">
-                    <li> <img src="img/nota-musical.svg" width="25" height="25">M&uacute;sica</li>
-                    <li> <img src="img/yin-yang.svg" width="25" height="20">Filosof&iacute;a</li>
-                    <li> <img src="img/carpinteria.svg" width="25" height="20">Carpinter&iacute;a</li>
-                </od>
+                <ul class="container padding">
+                    <li> <img class="icon" src="img/nota-musical.svg" width="30" height="30"> <span>M&uacute;sica</span></li>
+                    <li> <img src="img/yin-yang.svg" width="30" height="30"><span>Filosof&iacute;a</span></li>
+                    <li> <img src="img/carpinteria.svg" width="30" height="30"><span>Carpinter&iacute;a</span></li>
+                </ul>
             </div>
             </div>
             </section>
