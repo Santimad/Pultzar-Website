@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+header { height: auto;}
 .padding{
     padding: 1em 1em 2em 1em;
 }
