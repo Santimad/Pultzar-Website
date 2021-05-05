@@ -20,7 +20,7 @@ td, th {
   }
 div.intereses { width: 80vw;}
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     table{ width: 50vw;}
     div.intereses { width: 50vw;}
   }
