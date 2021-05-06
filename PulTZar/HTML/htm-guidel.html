@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Introducci&oacute;n a HTML</title>
+  </head>
+  <body>
+    <h1>Introducción a HTML</h1>
+    <p>Desde que tom&eacute; la decisi&oacute;n de tomarme a HTML bien en serio y comenc&eacute; a estudiarlo,
+        acostumbraba tener anotaciones en cuadernos con las especificaciones de cada elemento. Hoy, por
+        razones de la vida, esas notas se encuentran fuera de mi alcance; y como ha pasado un tiempo largo desde que no las
+        reviso, temo haber olvidado cu&aacute;l es el verdadero punto de partida cuando uno comienza con esto  
+        de HTML. Por esta raz&oacute;n, ahora que tengo una mayor comprensi&oacute;n del lenguaje (Lenguaje de Marcado como sus siglas en ingl&eacute; lo 
+        sugieren: Hipertext Markup Lenguage), prefiero mantener mis anotaciones en este formato para que sean
+        accesibles siempre y cuando tenga un ordenador y conexi&oacute;n a internet. Quien se sienta interesado
+        en revisarles y le sean de utilidad, sea bienvenido y disfrute de la lectura.
+    </p>
+    <!-- Starter Template -->
+    <p> Reintegro, esto es m&aacute;s bien una gu&iacute;a para quienes ya son iniciados en el tema y desean
+        retomar algunos conceptos de una manera ordenada. Si a&uacute;n no has comprendido los conceptos b&aacute;sicos
+        de HTML te recomiendo que visites el sitio de <a href="https://www.w3schools.com/">W3Schools</a> o similar para familiarizarte
+        con ellos.
+    </p>
+    <main>
+        <div>
+            <p> Considero que el punto de partida es tener una plantilla base para empezar a trabajar 
+                r&aacute;pidamente en nuestro documento:
+            </p>
+            <pre class="highlight" id="intro-early-example">
+                <span class="cp">&lt;!DOCTYPE html&gt;</span>
+                <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Sample page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Sample page<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This is a <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"demo.html"</span><span class="p">&gt;</span>simple<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span> sample.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+                    <span class="c">&lt;!-- this is a comment --&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+                </pre>
+        </div>
+        <div>
+            <div id="flexbox">
+              <img src="icons/bombilla.svg" width="30" height="30"> <p clas="ml-2vw">Recuerda que para añadir estilos de CSS debes incluir la siguiente l&iacute;nea en el encabezado:</p>
+            </div>
+            <pre class="highlight">
+                <span class="p">&lt;</span><span class="nt">link </span><span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet" </span> <span class="na">href</span><span class="o">=</span><span class="s">"css/style.css"</span><span class="p">&gt;</span>
+            </pre>
+        </div>
+    </main>
+  </body>
+</html>
