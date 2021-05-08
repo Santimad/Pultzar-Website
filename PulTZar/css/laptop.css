@@ -1,0 +1,12 @@
+#introduccion {margin-left:1vw;}
+#introduccion > .container > .perfil > .nombre { font-size: 5vh;}
+#introduccion > .container > .perfil > .datos { font-size:2.8vh;}
+table{ width: 50vw; font-size: 1em;}
+#introduccion > .container > .perfil > .datos { margin-top: 0;}
+
+#intereses > div.container { width: 38em;}
+#intereses > div.container > div.split > div.flex ul > li { width: 325px;}
+#intereses > div.container > div.split > div.flex ul > li:nth-child(2) { margin-top: 2vw;}
+#intereses > div.container > div.split > div.flex ul > li > span{margin-left: 2vw; font-size: 1em;}
+#intereses > div.container > div.split > div.flex ul > li > img {top:0.6em; left: 0.6em;}
+#intereses > div.container > div.split > div.flex ul > li:before { width: 50px; height: 50px;}
